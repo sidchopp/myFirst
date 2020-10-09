@@ -11,7 +11,7 @@ body,html {
 
 #navbar {
   overflow: hidden;
-  background-color:rgba(0,0,0,0.1); /*This will make the navbar black and also tranparent This approach os better than writing color and opacity seperately*/
+  background-color:rgba(0,0,0,0.4); /*This will make the navbar black and also tranparent This approach os better than writing color and opacity seperately*/
   padding: 20px 10px;
   transition: 0.4s;
   position: fixed;
@@ -27,7 +27,7 @@ body,html {
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  font-size: 30px; 
+  font-size: 20px; 
   line-height: 25px;
   border-radius: 4px;
 }
