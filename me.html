@@ -3,39 +3,64 @@
 <head>
 	<link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
 
-	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	
 
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+	
+      
 </head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <body>
+
 	<style>
-		
+
 		body{
-			background-image: url("dark.jpg");
+			background-image: url("cartop.jpg");
+			filter: grayscale(90%);
 			background-position: center;
   			background-repeat: no-repeat;
   			background-size: cover;
 			height: 100%;
 			color: #F5F5F5;
 			font-family: 'Yatra One', cursive;
-		}
+			background-color: black;
+			margin: 5px;
+			z-index: 99%;
+			
+  			}
 
 
 		html{
 			height: 100%;
+			
+*/
 		}
 	</style>
+	 
+	<!-- FOR BACK BUTTON -->
+	<button onclick="goBack()" id="myBackBtn" >Go Back</button>
+	<script>
+		function goBack() {
+  		window.history.back();
+		}
+	</script>
 	
 	
 
-<h1  style="font-size:3.5vw;">Hello Friends...</h1>
+<h1  style="font-size:20px; padding:20px;">Hi there, I'm <span style="font-size:25px">Siddharth Chopra</span><span style="color: #A0A0A0; font-size:30px;"> (Sid)</span></h1>
 
-<h2 style="font-size: 2vw">Born and brought up in India and moved to Canada in 2019. Ever since my childhood I was always curious and looked for the reasons to know about the <i>Nature.</i> As Albert Einsten once written in Life magzine:</h2>
+<div style="padding: 20px;">
 
- <h2 style="font-size: 1.6vw"><i>"The Important thing is not to stop questioning.Curiosity has its own reason for exsistence".</i></h2>
-<h2 style="font-size: 2vw">I have genuine Love for <i>Physics</i> and after teaching it for more than a decade, now I have developed interest in <i>"Coding".</i></h2>
+<h2 style="font-size: 20px; ">I was born and brought up in India and moved to Canada in 2019. Ever since my childhood I was always curious and looked for the reasons to know about <i>Nature.</i> As Albert Einstein once written:</h2>
 
-<h1  style="font-size:70px;font-family: 'Shadows Into Light', cursive;">Sid</h1>
+ <h2 style="font-size: 20px;"><i>"The Important thing is not to stop questioning. Curiosity has its own reason for exsistence".</i></h2>
+<h2 style="font-size: 20px;">I have genuine Love for <span style="color: #A0A0A0;font-size: 25px;"><i>Physics</i> </span>and after teaching it for more than a decade, now I have developed interest in <span style="color: #A0A0A0;font-size: 25px;"><i>"Coding".</i></span></h2>
+
+</div>
+
 
 
 </body>

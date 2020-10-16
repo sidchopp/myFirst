@@ -4,6 +4,8 @@
 <head>
 	<link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
 
+	<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
 	<style>
@@ -16,6 +18,11 @@
 			height: 100%;
 			color: #F5F5F5;
 			font-family: 'Yatra One', cursive;
+			filter: grayscale(100%);
+			margin: 0;
+  			background-color: black;
+  			margin:5px;
+
 
 		}
 
@@ -24,15 +31,20 @@
 		}
 	</style>
 	
-	
+	<button onclick="goBack()" id="myBackBtn" >Go Back</button>
+	<script>
+		function goBack() {
+  		window.history.back();
+		}
+	</script>
 
-<h1  style="font-size:3vw;">Education</h1>
+<h1  style="font-size:3vw;color:#A0A0A0;"><i>Education</i></h1>
 <ul>
 	<li style="font-size:2vw;">Master's in Physics</li>
 	<li style="font-size:2vw;">Bachelor's in Physics</li>
 </ul>
 
-<h1  style="font-size:3vw;">Work</h1>
+<h1  style="font-size:3vw;color:#A0A0A0;"><i>Work</i></h1>
 <ul>
 	<li style="font-size:2vw;">Presently a Full Stack Developer <i>Learner</i> (since Sept 2020)</li>
 	<li style="font-size:2vw;"> Part Time Physics Insturctor (since Mar 2020)</li>
@@ -41,7 +53,12 @@
 	<li style="font-size:2vw;">Physics Faculty (Dec 2008-Nov 2014) </li>
 	
 </ul><br>
-	<h2 style="font-size: 2vw" ><a style="color: white; text-decoration: none; border: 1px solid #F5F5F5; padding: 20px;" href="detailedCv.pdf"><i>Detailed CV</i></a></h2>
+
+<div style="margin: 10px;">
+	<h3 style="font-size:1.5vw;" >Feel free to take a look at my detailed CV below.</h3> 
+
+	<h3 ><a style="color: #A0A0A0; text-decoration: none; font-size:2.5vw;" href="detailedCv.pdf">CV </a><h3>
+</div>		
 
 
 

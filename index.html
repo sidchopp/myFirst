@@ -11,32 +11,56 @@
 
       <link rel="stylesheet" type="text/css" href="style.css">
 
+      <!-- Load font social icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      
+
+      
+      
 </head>
 
 <body>
-       <script src="navbar.js"></script>
+       
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
   <div id="navbar">
-    <a id="logo" style= "font-family: 'Permanent Marker', cursive; font-size: 50px; cursor: none;" >SC</a>
-
-    <div id="navbar-right">
-      <a href="me.html"> Me</a>
-      <a  href="myLifeSoFar.html" id="logo">My Life So Far</a>
-      <a href="#contact" id="logo">Contact</a>
-
-    </div>
+    <a id="logo">SC</a>
+      <div id="navbar-right">
+        <a id = "iconsInNavbar" href="me.html" > Me</a>
+        <a  id = "iconsInNavbar" href="myLifeSoFar.html"  >My Life So Far</a>
+        <a id = "iconsInNavbar" href="#contact" >Contact</a>
+      </div>
   </div>
-
-    <div class="bg-image img1"></div>
-    <div class="bg-image img2"></div>
-    <div class="bg-image img3"></div>
-    <div class="bg-image img4" style="border-bottom: 1px solid #F5F5F5;">
-    </div>  
-
-    <div class="bg-text"> <span style="font-size: 20px"> Dream </span> <span style="font-size: 25px">Big.</span ><br> Do<span style="font-size: 40px">  BIGGER.</span>   </div>
+  
+  <script src="navbar.js"></script>
 
 
-      <h2 id="contact" class="navbarBottom" style="border: 1px solid #f1f1f1; width:350px; margin:auto;">  <i>sidchopp@gmail.com</i></h2>
+  <div class="bg-image img1" style="filter: grayscale(90%);"></div>
+  <div class="bg-image img2"></div>
+  <div class="bg-image img3"></div>
+  <div class="bg-image img4" style="border-bottom: 1px solid #F5F5F5;filter: grayscale(90%)"></div>  
+
+    <!-- FOR MOVING TEXT -->
+
+    <div id="bg-text"> <span style="font-size: 20px"> Dream </span> <span style="font-size: 30px">Big.</span ><br><span style="font-size: 20px"> Do</span><span style="font-size: 40px">  BIGGER.</span> 
+    </div>
+
+
+      <h2 id="contact" class="navbarBottom icon-bar" ></h2>
+
+      <!-- The social media icon bar -->
+      <div class="icon-bar">
+         <a href="https://twitter.com/sidchopp" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="google"><i class="fa fa-google"></i></a>
+        <a href="https://www.linkedin.com/in/sid-chopra/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        
+       
+        
+        
+        
+      </div>
 
 
 
